@@ -1,0 +1,19 @@
+{
+  "name": "teknasalarycomparison",
+  "version": "1.0.0",
+  "description": "An online tool for comparing member salary development with Tekna statistics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Tekna",
+    "Salary",
+    "Comparison"
+  ],
+  "author": "Harald Wesenberg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

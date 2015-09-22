@@ -4,6 +4,13 @@ block content
   h1= title
   p Greetings, welcome to Harald's super-fantastic #{title}
   form(action='#{messageURL}', method = 'post')
-   input(type="text", name="message", placeholder="Enter a message", size="40")
+   input(type="text", name="salaryGroup", placeholder="Salary group", size="10")
+   input(type="text", name="basisYear", placeholder="Basis Year", size="10")
+   input(type="text", name="pct10", placeholder="10 percent", size="10")
+   input(type="text", name="pct25", placeholder="25 percent", size="10")
+   input(type="text", name="pct50", placeholder="50 percent", size="10")
+   input(type="text", name="pct75", placeholder="75 percent", size="10")
+   input(type="text", name="pct90", placeholder="90 percent", size="10")
+   input(type="text", name="median", placeholder="Median", size="10")
    input(type='submit', name='submit', value='Submit')
    p #{messageURL}
